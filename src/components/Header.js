@@ -4,7 +4,7 @@ import Button from './Button'
 
 const Header = () => {
   return (
-    <div className='flex justify-between '>
+    <div className='flex justify-between bg-violet-800 text-white'>
       <div className='flex ml-8'>
         <Icon />
         <h1 className='font-bold text-3xl mx-4 my-2'>Porfolio</h1>

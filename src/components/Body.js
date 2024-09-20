@@ -9,8 +9,8 @@ const Body = () => {
   return (
     <div>
       <Info/>
-       <Skill/>
-       <Project/>
+      <Skill/>
+      <Project/>
       <Education/>  
       <Footer />
     </div>

@@ -10,6 +10,8 @@ const Education = () => {
   const toggleVisibility2 = () => {
     setIsVisible2(!isVisible2);
   };
+
+
   return (
     <div>
       <h1 className="text-3xl text-bold my-4 mx-8 text-center">Education</h1>
@@ -18,11 +20,11 @@ const Education = () => {
         educational details are as follows.
       </h2>
 
-      <ul>
+      <ul className="cursor-pointer">
         <li className="my-4" onClick={toggleVisibility}>
-          <div className="border-2 w-2/3 mx-auto p-2 ">
-            <img src="" alt="graduation image" />
-            <div>
+          <div className="border-2 w-2/3 mx-auto p-2 flex ">
+            <img src="/btech.jpeg" alt="graduation image" className="w-32" />
+            <div className="my-auto">
               <h2 className="mx-8 ">Graduation</h2>
               <div className="flex justify-between mx-8">
                 <span>Dr. A.P.J. Abdul Kalam Technical University</span>
@@ -41,9 +43,9 @@ const Education = () => {
         </li>
 
         <li className="my-4" onClick={toggleVisibility2}>
-          <div className="border-2 w-2/3 mx-auto p-2 ">
-            <img src="" alt="cdac image" />
-            <div>
+          <div className="border-2 w-2/3 mx-auto p-2 flex">
+            <img src="/cdac.jpeg" alt="cdac image" className="w-32"/>
+            <div className="my-auto">
               <h2 className="mx-8 ">Diploma in Advanced Computing</h2>
               <div className="flex justify-between mx-8">
                 <span>
