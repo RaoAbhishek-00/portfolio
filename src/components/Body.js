@@ -7,7 +7,7 @@ import Education from './Education'
 
 const Body = () => {
   return (
-    <div>
+    <div className='bg-gradient-to-b from-light-teal   via-brown to-cream'>
       <Info/>
       <Skill/>
       <Project/>

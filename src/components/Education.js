@@ -11,19 +11,26 @@ const Education = () => {
     setIsVisible2(!isVisible2);
   };
 
-
   return (
     <div>
-      <h1 className="text-3xl text-bold my-4 mx-8 text-center">Education</h1>
+      <h1 className="text-3xl font-bold py-4 mx-8 text-center">Education</h1>
       <h2 className="text-center text-lg">
         My education has been a journey of self-discovery and growth. My
         educational details are as follows.
       </h2>
 
-      <ul className="cursor-pointer">
-        <li className="my-4" onClick={toggleVisibility}>
-          <div className="border-2 w-2/3 mx-auto p-2 flex ">
-            <img src="/btech.jpeg" alt="graduation image" className="w-32" />
+      <ul className="">
+        <li
+          className="my-4"
+          onClick={toggleVisibility}
+        >
+          <div className="border-2 w-2/3 mx-auto p-2 flex cursor-pointer"           onMouseEnter={() => setIsVisible(true)}
+          onMouseLeave={() => setIsVisible(false)}>
+            <img
+              src="/btech.jpeg"
+              alt="graduation image"
+              className="w-32 h-32"
+            />
             <div className="my-auto">
               <h2 className="mx-8 ">Graduation</h2>
               <div className="   mx-8">
@@ -42,9 +49,14 @@ const Education = () => {
           </div>
         </li>
 
-        <li className="my-4" onClick={toggleVisibility2}>
-          <div className="border-2 w-2/3 mx-auto p-2 flex">
-            <img src="/cdac.jpeg" alt="cdac image" className="w-32"/>
+        <li
+          className="py-4"
+          onClick={toggleVisibility2}
+        >
+          <div className="border-2 w-2/3 mx-auto p-2 flex cursor-pointer" 
+          onMouseEnter={() => setIsVisible2(true)}
+          onMouseLeave={() => setIsVisible2(false)}>
+            <img src="/cdac.jpeg" alt="cdac image" className="w-32 h-32" />
             <div className="my-auto">
               <h2 className="mx-8 ">Diploma in Advanced Computing</h2>
               <div className="mx-8 ">

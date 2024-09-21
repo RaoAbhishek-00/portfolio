@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard'
 const Project = () => {
   return (
     <div>
-        <h1 className='text-3xl text-bold my-4 mx-8 text-center'>Projects</h1>
+        <h1 className='text-3xl font-bold my-4 mx-8 text-center'>Projects</h1>
         <h2 className='text-center text-lg'>I have worked on front-end web developer project..</h2>
         <div className=''>
             <ProjectCard />
