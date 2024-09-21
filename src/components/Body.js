@@ -3,7 +3,7 @@ import Info from './Info'
 import Skill from './Skill'
 import Project from './Project'
 import Education from './Education'
-import Footer from './Footer'
+
 
 const Body = () => {
   return (
@@ -12,7 +12,7 @@ const Body = () => {
       <Skill/>
       <Project/>
       <Education/>  
-      <Footer />
+      
     </div>
   )
 }

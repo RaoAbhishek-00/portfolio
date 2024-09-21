@@ -26,9 +26,9 @@ const Education = () => {
             <img src="/btech.jpeg" alt="graduation image" className="w-32" />
             <div className="my-auto">
               <h2 className="mx-8 ">Graduation</h2>
-              <div className="flex justify-between mx-8">
-                <span>Dr. A.P.J. Abdul Kalam Technical University</span>
-                <span>2015-2019</span>
+              <div className="   mx-8">
+                <div>Dr. A.P.J. Abdul Kalam Technical University</div>
+                <div className=" ">(2015-2019)</div>
               </div>
               {isVisible && (
                 <div className="mx-8 my-2">
@@ -47,11 +47,11 @@ const Education = () => {
             <img src="/cdac.jpeg" alt="cdac image" className="w-32"/>
             <div className="my-auto">
               <h2 className="mx-8 ">Diploma in Advanced Computing</h2>
-              <div className="flex justify-between mx-8">
-                <span>
+              <div className="mx-8 ">
+                <div>
                   Centre for Development of Advanced Computing (C-DAC) Bengaluru
-                </span>
-                <span>2022-2023</span>
+                </div>
+                <div className="">(2022-2023)</div>
               </div>
               {isVisible2 && (
                 <div className="mx-8 my-2">
